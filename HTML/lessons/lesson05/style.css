@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.color {
+    color: red;
+}
+
+.price {
+    font-family: Georgia;
+}
+
+.underline {
+    text-decoration: underline ;
+}
+
+.decoration {
+    text-transform: uppercase;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
