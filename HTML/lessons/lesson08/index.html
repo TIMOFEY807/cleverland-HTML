@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <div>
+        <form name="my-form">
+            <fieldset>
+                <legend>Многострочные текстовые поля</legend>
+                <textarea name="description" cols="30" rows="10" placeholder="Введите описание">
+                </textarea>
+                <p>
+                    <label> Введите текст
+                        <input type="text" name="username" placeholder="Введите логин">
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Выпадающие списки</legend>
+                <label for="select-flower">Выберите цветок</label>
+                <select name="flower" id="select-flower">
+                    <option disabled>Выберите разновидность</option>
+                    <option value="rose">Роза</option>
+                    <option value="daisy" selected>Ромашка</option>
+                    <option value="gladiolus">Гладиолус</option>
+                </select>
+                <p>
+                    <label for="select-car">Выберите марку авто</label>
+                    <select name="car" id="select-car">
+                        <option disabled>Выберите разновидность</option>
+                        <option>Audi</option>
+                        <option selected>Lexus</option>
+                        <option>BMW</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
