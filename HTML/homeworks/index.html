@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы lesson09</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>
+                Параметры автомобиля
+            </legend>
+            <p>
+                <label>
+                    Марка автомобиля:
+                    <input type="text" name="car">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Объем двигателя, см<sup>3</sup>
+                    <input type="number" placeholder="1900">
+                </label>
+            </p>
+            <p>
+                <label for="region">Область</label>
+                <select name="region" id="region">
+                    <option value="1" selected>Брестская</option>
+                    <option value="2">Витебская</option>
+                    <option value="3">Гомельская</option>
+                    <option value="4">Гродненская</option>
+                    <option value="5">Минская</option>
+                    <option value="6">Могилевская</option>
+                </select>
+            </p>
+            <p>
+                Тип КПП
+            </p>
+            <p>
+                <label>
+                    Автомат 
+                    <input type="radio" name="transmission">
+                </label>
+            </p>    
+            <p>
+                <label>
+                    Механика
+                    <input type="radio" name="transmission">
+                </label>
+            </p>
+            <p>
+                Двигатель
+            </p>
+            <p>
+                <label>
+                    Электро
+                    <input type="checkbox" name="engine" value="electro">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Дизель
+                    <input type="checkbox" name="engine" value="diesel">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Бензин
+                    <input type="checkbox" name="engine" value="petrol">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Пропан-бутан
+                    <input type="checkbox" name="engine" value="propane">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Метан
+                    <input type="checkbox" name="engine" value="mathane">
+                </label>
+            </p>
+            <p>
+                Описание
+            </p>
+            <p>
+                <textarea name="description" cols="30" rows="10">
+
+                </textarea>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </p>
+    </form>
+</body>
+</html>

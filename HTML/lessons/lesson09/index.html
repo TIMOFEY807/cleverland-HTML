@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы lesson09</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Регистрационная форма пользователя</legend>
+            <p>
+                <label>
+                    Имя:
+                    <input type="text" name="userName">
+                </label>
+            </p>
+            <p>
+                <label for="age">Укажите возраст:</label>
+                <select name="age" id="age">
+                    <option disabled selected>Выберите возраст</option>
+                    <option value="10-15">10-15</option>
+                    <option value="15-20">15-20</option>
+                    <option value="20-30">20-30</option>
+                    <option value="30-40">30-40</option>
+                    <option value="40+">Старше 40</option>
+                </select>
+            </p>
+            <p>
+                Укажите пол:
+                <label>
+                    Мужской 
+                    <input type="radio" name="sex" value="man">
+                </label>
+                <label>
+                     Женский
+                     <input type="radio" name="sex" value="woman">
+                </label>
+            </p>
+            <p>
+                <label for="country">Страна проживания:</label>
+                <select name="country" id="country">
+                    <option value="Belarus">Беларусь</option>
+                    <option value="Russian_Fedetation">Российская Федерация</option>
+                    <option value="Another_State">Другое государство</option>
+                </select>
+            </p>
+            <p>
+                Владение языками:
+                <label>
+                     русский
+                     <input type="checkbox" name="language" value="russian">
+                </label>
+                <label>
+                    белорусский
+                    <input type="checkbox" name="language" value="belorussion">
+                </label>
+                <label>
+                    английский
+                    <input type="checkbox" name="language" value="english">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Фото профиля:
+                    <input type="file" accept=".jpg .png">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Введите логин:
+                    <input type="text" maxlength="20" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Введите пароль:
+                    <input type="password" name="password" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Повторите пароль:
+                    <input type="password" name="password-repeat"  required>
+                </label>
+            </p>
+            <p>
+                <textarea cols="30" rows="10">
+
+                </textarea>
+            </p>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
